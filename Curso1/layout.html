@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<title>Layout Formato fijo</title>
+<style>
+  /*************************************************
+                   SOLO PARA PC NO PARA CELULARES
+  **************************************************/
+/*** CSS Document
+    contenido:#F2B705
+    encabezado:#F29F05
+    equivalentes:#D97904
+    piepagina:#733702
+    auxiliar:#401801
+***/
+/*************************************************
+                 NEUTRALIDAD
+**************************************************/
+h1, h2, h3, h4, h5, h6, p, html, body{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color:#fff;
+}
+body{
+    background-image:url(fondolayout.jpg);
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+    height:800px;
+}
+/*************************************************
+                  ESTRUCTURA
+**************************************************/
+#wrapper{
+    width:960px;
+    height:700px;
+    background-color:#ff0;
+    margin:0 auto;
+}
+#encabezado{
+    height:100px;
+    background-color:#F29F05;
+}
+#contenido{
+    height:520px;
+    background-color:#F2B705;
+}
+#piepagina{
+    height:80px;
+    background-color:#733702;
+}
+#izq{
+    /*background-color:#401801;*/
+    float:left;
+    width:512px;
+    height:520px;
+    margin-bottom:0;
+    margin-left:32px;
+    margin-right:16px;
+    margin-top;0;
+}
+#der{
+    /*background-color:#401801;*/
+    float:right;
+    width:352px;
+    height:520px;
+    margin-bottom:0;
+    margin-left:16px;
+    margin-right:32px;
+    margin-top;0;
+}
+/*********************************************
+          CLASES
+**********************************************/
+.izquierda{
+    float:left;
+    margin:10px;
+}
+.derecha{
+    float:right;
+    margin:10px;
+}
+/*********************************************
+          ESTILOS DE ETIQUETA
+**********************************************/
+P {
+    padding-bottom:10px;/*10px/1em o en relacion a la M= tamaño de letra*/
+    font-size:1.2em;
+}
+h1{
+    padding-top:5px;
+    text-align:center;
+    letter-spacing:.8em;
+}
+h2{
+    padding:5px;
+    text-align:center;
+}
+h3{
+    text-align:center;
+    font-size:.8em;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+  <div id="encabezado"><h1>AFRODITA</h1><h2>Mitologia Griega</h2></div>
+  <div id="contenido">
+      <div id="izq">
+            <h2>Primera generación de dioses</h2>
+            <p><img src="260px-Afrodita_otra.jpg" class="izquierda" />En principio sólo existía el Caos, el vacío o desorden originario.</p>
+            <p>Luego surgieron Gea, la tierra, y Eros, el amor.</p>
+            <p>Gea por sí sola engendró a Urano (el cielo), las Montañas y Ponto (el mar).</p>
+            <p>Después Gea se unió a Urano y engendró a los Titanes, seis dioses y seis diosas, de los cuales el más joven era Crono (Saturno para los romanos). También concibió a los Cíclopes, tres gigantes con un solo ojo en mitad de la frente, que personificaban el rayo, el trueno y el relámpago. Por último engendró a los Hecatónquiros, tres terribles gigantes con cincuenta cabezas y cien brazos cada uno.</p>
+      </div>
+      <div id="der">
+            <h2>Segunda generacion</h2>
+            <p><img src="afrodita5.jpg" class="derecha" />En unión con su hermana, la Titánida Rea, Cronos tuvo tres hijas: Hestia, Deméter y Hera, y tres hijos: Hades, Poseidón y, finalmente, Zeus.</p>
+            <p>Una maldición pesaba sobre Cronos, luego de destronar a su padre, había rehusado dar satisfacción a Gea. Por no haber liberado a sus hermanos, condenados a no ver la luz. Gea le prometió que también él sufriría la suerte que había infligido a su padre, y que sería destronado por sus hijos.</p>
+            <p>Para prevenirse contra esa amenaza, Cronos devoraba los hijos que le daba Rea. Los primeros cinco, se los comió. Pero cuando estuvo a punto de nacer el pequeño Zeus, Rea decidió salvar a ese niño.</p>
+      </div>
+  </div>
+  <div id="piepagina"><h3>&copy; Tdodos los derechos reservados</h3></div>
+</div>
+</body>
+</html>

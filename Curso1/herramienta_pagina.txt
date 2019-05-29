@@ -1,0 +1,34 @@
+https://960.gs/
+cantidad de columnas
+siempre son multiplos de 960
+etiquetas estructurales por medio de divisiones
+
+
+
+
+/*** CSS Document
+  contenido:#F2B705
+  encabezado:#F29F05
+  equivalentes:#D97904
+  piepagina:#733702
+  auxiliar:#401801
+***/
+  /*************************************************
+                  NEUTRALIDAD
+  **************************************************/
+h1,h2,h3,h4,h5,h6,p,html,body{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background-color:#fff;
+}
+/*************************************************
+                  ESTRUCTURA
+**************************************************/
+#wrapper{
+    width: 960px
+    height :800px;
+    background-color:#ff0;
+    margin:0 auto;
+}
